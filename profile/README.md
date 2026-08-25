@@ -6,12 +6,11 @@ Analysis of the Bs → ττ decay in ttbar events, using Run 2 and Run 3 data. T
 
 | Stage | Repository | Description |
 |---|---|---|
-| 1 | [part-ntuplizer](https://github.com/bstautau-ttbar/part-ntuplizer) | Ntuplizer producing training samples for the Particle Transformer |
-| 2 | [part-training](https://github.com/bstautau-ttbar/part-training) | Training framework for the Particle Transformer |
-| 3.1 | [nano-ntuplizer-ml](https://github.com/bstautau-ttbar/nano-ntuplizer-ml) | miniAOD → nanoAOD ntuplizer with embedded ML model inference |
-| 3.2 | [nano-skimmer](https://github.com/bstautau-ttbar/nano-skimmer) | Custom nanoAOD skimmer |
-| 4 | [analyzer](https://github.com/bstautau-ttbar/analyzer) | Main analysis code |
-| 5 | [combine-performance](https://github.com/bstautau-ttbar/combine-performance) | Combine-based framework for performance evaluation |
+| 1 | [deep-ntuplizer](https://github.com/bstautau-ttbar/DeepNTuplesCharged) | miniAOD → jet-based ntuples : training samples for the Particle Transformer |
+| 2 | [UParT-training](https://gitlab.cern.ch/cbasile/b-hive/-/tree/bstautau_edge_features?ref_type=heads) | CMS training framework for Particle Transformer used as jet-tagger and mass regressor |
+| 3 | [BsTauTau_ntuplizer](https://github.com/bstautau-ttbar/BsTauTau_ntuplizer) | miniAOD → nanoAOD ntuplizer UParT models inference and nanoAOD skimmer with (lose) ttbar preselection |
+| 4 | [bstautau-analyzer](https://github.com/bstautau-ttbar/bstautau-analyzer) | Main analysis code on skimmed nanoAOD|
+| 5 | [combine-analysis](https://github.com/bstautau-ttbar/combine-analysis) | Statistical analysis based on COMBINE framework|
 
 ## Data
 
